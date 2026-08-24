@@ -126,7 +126,7 @@ async function callGroq(messages, system) {
       ],
       max_tokens: 8192,
       temperature: 0.7,
-      stream: false,
+      stream: true,
     })
   });
 
